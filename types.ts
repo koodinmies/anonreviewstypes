@@ -80,7 +80,7 @@ export interface reviewsentresponse{
     message: string;
 }
 
-export interface paths {
-    saveReviewPath: "/savereview"
 
+export const paths = {
+    saveReview: "/savereview"
 }
