@@ -79,3 +79,8 @@ export interface reviewsentresponse{
     status: "OK" | "NOK",
     message: string;
 }
+
+export interface paths {
+    saveReviewPath: "/savereview"
+
+}
