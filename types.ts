@@ -73,6 +73,7 @@ export interface tokendata extends base  {
 
 export interface reviewdata{
     reviewmessage: string
+    business: string
 }
 export interface reviewsentresponse{
     status: "OK" | "NOK",
