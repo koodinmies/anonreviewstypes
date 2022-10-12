@@ -84,3 +84,4 @@ export interface reviewsentresponse{
 export const paths = {
     saveReview: "/savereview"
 }
+
