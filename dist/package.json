@@ -1,0 +1,16 @@
+{
+    "name": "common_anonreview",
+    "version": "1.0.0",
+    "description": "",
+    "main": "lib/es6/index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "@types/node": "^18.8.3",
+      "typescript": "^4.8.4"
+    }
+  }
+  
