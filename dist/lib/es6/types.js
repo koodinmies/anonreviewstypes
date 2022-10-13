@@ -15,6 +15,10 @@ export var STATUSCODES;
     STATUSCODES["OK"] = "OK";
     STATUSCODES["NOK"] = "NOK";
 })(STATUSCODES || (STATUSCODES = {}));
+export const statuses = {
+    OK: "OK",
+    NOK: "NOK"
+};
 export const paths = {
     saveReview: "/savereview"
 };

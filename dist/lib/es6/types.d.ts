@@ -64,9 +64,13 @@ export interface reviewdata {
     business: string;
 }
 export interface reviewsentresponse {
-    status: "OK" | "NOK";
+    status: STATUSCODES.OK | STATUSCODES.NOK;
     message: string;
 }
+export declare const statuses: {
+    OK: string;
+    NOK: string;
+};
 export declare const paths: {
     saveReview: string;
 };

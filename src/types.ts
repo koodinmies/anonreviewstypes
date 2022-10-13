@@ -76,8 +76,12 @@ export interface reviewdata{
     business: string
 }
 export interface reviewsentresponse{
-    status: "OK" | "NOK",
+    status: STATUSCODES.OK | STATUSCODES.NOK,
     message: string;
+}
+export const statuses =  {
+    OK: "OK",
+    NOK: "NOK"
 }
 
 
