@@ -1,3 +1,4 @@
+export declare var exports: {};
 export { getFormEntries } from "./util";
 export { reviewsentresponse } from './types';
 export { reviewdata } from './types';
