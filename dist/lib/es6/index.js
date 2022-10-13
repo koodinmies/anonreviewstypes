@@ -1,3 +1,3 @@
-export { getFormEntries } from "./util";
-export { paths } from './types';
-export { STATUSCODES } from './types';
+export { getFormEntries } from "./util.js";
+export { paths } from './types.js';
+export { STATUSCODES } from './types.js';
