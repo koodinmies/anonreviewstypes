@@ -1,4 +1,4 @@
-export var exports = {} // # THIS IS BECAUSE JS IS GAY
+export var exports = {} // # THIS IS BECAUSE JS IS SO F ANNOYING SOMETIMES
 export {getFormEntries} from "./util";
 export {reviewsentresponse} from './types';
 export {reviewdata} from './types';
