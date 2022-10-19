@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "",
     "main": "./commonjs/index.js",
-    "module": "./es6/index.js",
+    "mo dule": "./es6/index.js",
     "types": "./es6/index.d.ts",
     "type": "commonjs",
     "scripts": {
