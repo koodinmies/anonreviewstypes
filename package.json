@@ -2,8 +2,8 @@
   "name": "common_anonreview",
   "version": "1.0.0",
   "description": "",
-  "main": "./dist/lib/es6/index.js",
-  "types": "./dist/lib/es6/index.d.ts",
+  "main": "./dist/lib/commonjs/index.js",
+  "types": "./dist/lib/commonjs/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "compile": "npx tsc && npx tsc --build tsconfigcommonjs.json"
