@@ -72,13 +72,16 @@ export interface tokendata extends base  {
 }
 
 export interface reviewdata{
-    reviewmessage: string
+    reviewmessage: string,
     business: string,
     acknowledged: boolean
 }
 export interface reviewsentresponse{
     status: STATUSCODES.OK | STATUSCODES.NOK,
     message: string;
+}
+export interface unAcReviews{
+    reviews: reviewdata[]
 }
 export const statuses =  {
     OK: "OK",

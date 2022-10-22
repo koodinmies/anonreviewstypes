@@ -68,6 +68,9 @@ export interface reviewsentresponse {
     status: STATUSCODES.OK | STATUSCODES.NOK;
     message: string;
 }
+export interface unAcReviews {
+    reviews: reviewdata[];
+}
 export declare const statuses: {
     OK: string;
     NOK: string;
