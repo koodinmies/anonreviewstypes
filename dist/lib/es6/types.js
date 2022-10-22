@@ -20,5 +20,6 @@ export const statuses = {
     NOK: "NOK"
 };
 export const paths = {
-    saveReview: "/savereview"
+    saveReview: "/savereview",
+    unacknowledgedReviews: "/unacknowledgedreviews"
 };

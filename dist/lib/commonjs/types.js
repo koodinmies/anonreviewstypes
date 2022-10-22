@@ -23,5 +23,6 @@ exports.statuses = {
     NOK: "NOK"
 };
 exports.paths = {
-    saveReview: "/savereview"
+    saveReview: "/savereview",
+    unacknowledgedReviews: "/unacknowledgedreviews"
 };

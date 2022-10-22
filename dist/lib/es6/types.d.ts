@@ -62,6 +62,7 @@ export interface tokendata extends base {
 export interface reviewdata {
     reviewmessage: string;
     business: string;
+    acknowledged: boolean;
 }
 export interface reviewsentresponse {
     status: STATUSCODES.OK | STATUSCODES.NOK;
@@ -73,4 +74,5 @@ export declare const statuses: {
 };
 export declare const paths: {
     saveReview: string;
+    unacknowledgedReviews: string;
 };
