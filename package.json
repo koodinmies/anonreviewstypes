@@ -9,7 +9,6 @@
     "compile": "npx tsc && npx tsc --build tsconfigcommonjs.json"
   },
   "author": "",
-  "type": "module",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^18.8.3",
