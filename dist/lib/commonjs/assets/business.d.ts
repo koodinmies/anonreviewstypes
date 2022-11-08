@@ -4,3 +4,8 @@ export declare enum BusinessFields {
     businessName = "businessname",
     id = "id"
 }
+export interface Business {
+    email: string;
+    password: string;
+    businessName: string;
+}
