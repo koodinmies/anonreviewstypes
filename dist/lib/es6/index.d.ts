@@ -5,4 +5,4 @@ export { paths } from './types.js';
 export { environmentoptions } from './types.js';
 export { STATUSCODES } from './types.js';
 export { reviewDTO, ReviewFields } from './assets/review';
-export { BusinessFields } from './assets/business';
+export { BusinessFields, Business } from './assets/business';
