@@ -4,4 +4,5 @@ export var ReviewFields;
     ReviewFields["reviewerID"] = "reviewerID";
     ReviewFields["FKBusinessId"] = "BusinessId";
     ReviewFields["acknowledged"] = "acknowledged";
+    ReviewFields["id"] = "id";
 })(ReviewFields || (ReviewFields = {}));

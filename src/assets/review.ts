@@ -2,7 +2,8 @@ export enum ReviewFields {
     reviewtext = "reviewtext",
     reviewerID = "reviewerID",
     FKBusinessId = "BusinessId",
-    acknowledged = "acknowledged"
+    acknowledged = "acknowledged",
+    id = "id"
 }
 
 export interface reviewDTO {
