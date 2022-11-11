@@ -9,5 +9,5 @@ export enum ReviewFields {
 export interface reviewDTO {
     id: string
     reviewtext: string
-    acknowledged: false
+    acknowledged: boolean
 }
