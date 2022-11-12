@@ -81,6 +81,7 @@ export interface reviewsentresponse{
     message: string;
 }
 export interface unAcReviews{
+    status: string,
     reviews: reviewdata[]
 }
 export const statuses =  {
