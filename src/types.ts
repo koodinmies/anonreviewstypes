@@ -1,3 +1,5 @@
+import { reviewDTO } from "./assets/review";
+
 export enum retval {
     USERNAME_EXISTS = "Username already exists.",
     PASSWORD_NOT_STRONG = "Password is not strong enough. ",
@@ -82,7 +84,7 @@ export interface reviewsentresponse{
 }
 export interface unAcReviews{
     status: string,
-    reviews: reviewdata[]
+    reviews: reviewDTO[]
 }
 export const statuses =  {
     OK: "OK",
