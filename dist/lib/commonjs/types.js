@@ -24,5 +24,6 @@ exports.statuses = {
 };
 exports.paths = {
     saveReview: "/savereview",
-    unacknowledgedReviews: "/unacknowledgedreviews"
+    unacknowledgedReviews: "/unacknowledgedreviews",
+    ackReview: "/ackReview"
 };

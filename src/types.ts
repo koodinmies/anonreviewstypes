@@ -86,6 +86,7 @@ export interface unAcReviews{
     status: string,
     reviews: reviewDTO[]
 }
+
 export const statuses =  {
     OK: "OK",
     NOK: "NOK"
@@ -93,5 +94,6 @@ export const statuses =  {
 
 export const paths = {
     saveReview: "/savereview",
-    unacknowledgedReviews: "/unacknowledgedreviews"
+    unacknowledgedReviews: "/unacknowledgedreviews",
+    ackReview: "/ackReview"
 }

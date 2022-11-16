@@ -80,4 +80,5 @@ export declare const statuses: {
 export declare const paths: {
     saveReview: string;
     unacknowledgedReviews: string;
+    ackReview: string;
 };

@@ -21,5 +21,6 @@ export const statuses = {
 };
 export const paths = {
     saveReview: "/savereview",
-    unacknowledgedReviews: "/unacknowledgedreviews"
+    unacknowledgedReviews: "/unacknowledgedreviews",
+    ackReview: "/ackReview"
 };
