@@ -92,6 +92,10 @@ export const statuses =  {
     NOK: "NOK"
 }
 
+export interface logindata{
+    destination: string
+}
+
 export const paths = {
     saveReview: "/savereview",
     unacknowledgedReviews: "/unacknowledgedreviews",

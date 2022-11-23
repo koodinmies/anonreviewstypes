@@ -77,6 +77,9 @@ export declare const statuses: {
     OK: string;
     NOK: string;
 };
+export interface logindata {
+    destination: string;
+}
 export declare const paths: {
     saveReview: string;
     unacknowledgedReviews: string;
