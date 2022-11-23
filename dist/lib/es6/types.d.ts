@@ -84,4 +84,5 @@ export declare const paths: {
     saveReview: string;
     unacknowledgedReviews: string;
     ackReview: string;
+    login: string;
 };

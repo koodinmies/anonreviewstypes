@@ -25,5 +25,6 @@ exports.statuses = {
 exports.paths = {
     saveReview: "/savereview",
     unacknowledgedReviews: "/unacknowledgedreviews",
-    ackReview: "/ackReview"
+    ackReview: "/ackReview",
+    login: "/login"
 };

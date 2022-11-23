@@ -22,5 +22,6 @@ export const statuses = {
 export const paths = {
     saveReview: "/savereview",
     unacknowledgedReviews: "/unacknowledgedreviews",
-    ackReview: "/ackReview"
+    ackReview: "/ackReview",
+    login: "/login"
 };
