@@ -24,5 +24,6 @@ export const paths = {
     unacknowledgedReviews: "/unacknowledgedreviews",
     ackReview: "/ackReview",
     login: "/login",
-    authenticate: "/authenticate"
+    authenticate: "/authenticate",
+    loginmailclickurl: "/auth/magiclogin/callback"
 };

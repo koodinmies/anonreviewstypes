@@ -86,4 +86,5 @@ export declare const paths: {
     ackReview: string;
     login: string;
     authenticate: string;
+    loginmailclickurl: string;
 };
