@@ -26,5 +26,6 @@ exports.paths = {
     saveReview: "/savereview",
     unacknowledgedReviews: "/unacknowledgedreviews",
     ackReview: "/ackReview",
-    login: "/login"
+    login: "/login",
+    authenticate: "/authenticate"
 };
