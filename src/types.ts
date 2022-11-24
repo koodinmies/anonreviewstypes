@@ -96,6 +96,10 @@ export interface logindata{
     destination: string
 }
 
+export interface authenticate {
+    token : string
+}
+
 export const paths = {
     saveReview: "/savereview",
     unacknowledgedReviews: "/unacknowledgedreviews",
