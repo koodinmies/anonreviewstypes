@@ -1,5 +1,5 @@
 export { getFormEntries } from "./util.js";
-export { reviewsentresponse, unAcReviews, logindata } from './types.js';
+export { reviewsentresponse, unAcReviews, logindata, authenticate } from './types.js';
 export { reviewdata } from './types.js';
 export { paths } from './types.js';
 export { environmentoptions } from './types.js';
