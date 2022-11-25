@@ -101,7 +101,7 @@ export interface authenticate extends base {
     
 }
 
-export interface authresponse extends base {
+export interface authenticationresponse extends base {
     loggedin : boolean
 }
 
