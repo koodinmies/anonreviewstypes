@@ -80,8 +80,7 @@ export declare const statuses: {
 export interface logindata {
     destination: string;
 }
-export interface authenticate {
-    token: string;
+export interface authenticate extends base {
 }
 export declare const paths: {
     saveReview: string;
