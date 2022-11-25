@@ -12,7 +12,7 @@ export enum JWT_ENUM {
     LOCALSTORAGE_JWT_TOKEN = "JWT_TOKEN"
   }
 export interface base {
-    [JWT_ENUM.LOCALSTORAGE_JWT_TOKEN]?: string,
+    token: string,
     loggedin?: boolean,
 }
 export enum STATUSCODES {
