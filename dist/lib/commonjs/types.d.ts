@@ -23,8 +23,7 @@ export interface basicresponse extends base {
     statusMessage: string;
     statusCode: STATUSCODES.OK | STATUSCODES.NOK;
 }
-export interface loginresponse extends basicresponse {
-    JWT_CREATE_TIME: number;
+export interface loginresponse extends base {
 }
 export interface credentials extends base {
     username: string;
