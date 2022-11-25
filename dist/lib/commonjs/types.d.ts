@@ -12,6 +12,7 @@ export declare enum JWT_ENUM {
 }
 export interface base {
     token: string;
+    message?: string;
     loggedin?: boolean;
 }
 export declare enum STATUSCODES {
