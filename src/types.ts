@@ -100,6 +100,10 @@ export interface authenticate extends base {
     
 }
 
+export interface authresponse extends base {
+    loggedin : boolean
+}
+
 
 export const paths = {
     saveReview: "/savereview",

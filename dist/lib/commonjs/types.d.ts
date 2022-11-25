@@ -82,6 +82,9 @@ export interface logindata {
 }
 export interface authenticate extends base {
 }
+export interface authresponse extends base {
+    loggedin: boolean;
+}
 export declare const paths: {
     saveReview: string;
     unacknowledgedReviews: string;
