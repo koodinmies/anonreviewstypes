@@ -106,7 +106,9 @@ export interface authenticationresponse extends base {
     status: STATUSCODES.OK | STATUSCODES.NOK
 }
 
-
+export interface setvalue extends base {
+    setvalue: string
+}
 
 export const paths = {
     saveReview: "/savereview",

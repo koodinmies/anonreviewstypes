@@ -86,6 +86,9 @@ export interface authenticationresponse extends base {
     loggedin: boolean;
     status: STATUSCODES.OK | STATUSCODES.NOK;
 }
+export interface setvalue extends base {
+    setvalue: string;
+}
 export declare const paths: {
     saveReview: string;
     unacknowledgedReviews: string;
