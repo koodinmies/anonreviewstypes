@@ -28,5 +28,6 @@ exports.paths = {
     ackReview: "/ackReview",
     login: "/login",
     authenticate: "/authenticate",
-    loginmailclickurl: "/auth/magiclogin/callback"
+    loginmailclickurl: "/auth/magiclogin/callback",
+    updatebusinessname: "/business/update"
 };

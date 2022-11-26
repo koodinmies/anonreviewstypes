@@ -96,4 +96,5 @@ export declare const paths: {
     login: string;
     authenticate: string;
     loginmailclickurl: string;
+    updatebusinessname: string;
 };
