@@ -109,6 +109,9 @@ export interface authenticationresponse extends base {
 export interface setvalue extends base {
     setvalue: string
 }
+export interface genericresponse extends base {
+    
+}
 
 export const paths = {
     saveReview: "/savereview",
