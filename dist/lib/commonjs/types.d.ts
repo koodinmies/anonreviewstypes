@@ -90,6 +90,7 @@ export interface setvalue extends base {
     setvalue: string;
 }
 export interface genericresponse extends base {
+    status: STATUSCODES.OK | STATUSCODES.NOK;
 }
 export declare const paths: {
     saveReview: string;
