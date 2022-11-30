@@ -30,5 +30,5 @@ exports.paths = {
     authenticate: "/authenticate",
     loginmailclickurl: "/auth/magiclogin/callback",
     updatebusinessname: "/business/update",
-    paths: "/business/getname"
+    getbusinessname: "/business/getname"
 };
