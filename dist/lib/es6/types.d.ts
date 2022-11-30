@@ -100,4 +100,5 @@ export declare const paths: {
     authenticate: string;
     loginmailclickurl: string;
     updatebusinessname: string;
+    paths: string;
 };

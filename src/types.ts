@@ -121,5 +121,6 @@ export const paths = {
     login: "/login",
     authenticate: "/authenticate",
     loginmailclickurl: "/auth/magiclogin/callback",
-    updatebusinessname: "/business/update"
+    updatebusinessname: "/business/update",
+    paths: "/business/getname"
 }
