@@ -113,6 +113,7 @@ export interface genericresponse extends base {
     status: STATUSCODES.OK | STATUSCODES.NOK
 }
 
+
 export const paths = {
     saveReview: "/savereview",
     unacknowledgedReviews: "/unacknowledgedreviews",
