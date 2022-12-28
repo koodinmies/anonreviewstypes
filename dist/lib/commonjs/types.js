@@ -28,6 +28,7 @@ exports.paths = {
     ackReview: "/ackReview",
     login: "/login",
     authenticate: "/authenticate",
+    authenticatecb: "/#/authenticate",
     loginmailclickurl: "/auth/magiclogin/callback",
     updatebusinessname: "/business/update",
     getbusinessname: "/business/getname"

@@ -99,6 +99,7 @@ export declare const paths: {
     ackReview: string;
     login: string;
     authenticate: string;
+    authenticatecb: string;
     loginmailclickurl: string;
     updatebusinessname: string;
     getbusinessname: string;
