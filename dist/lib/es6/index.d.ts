@@ -6,3 +6,4 @@ export { environmentoptions } from './types.js';
 export { STATUSCODES } from './types.js';
 export { reviewDTO, ReviewFields } from './assets/review';
 export { BusinessFields, Business } from './assets/business';
+export { Payment, PaymentFields } from './assets/Payment';
