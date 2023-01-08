@@ -1,7 +1,7 @@
 export enum PaymentFields {
     id = "id",
     paymenttime = "paymenttime",
-    nextPaymentDate = "nextpaymentdate"
+    paymentOK = "paymentok"
 }
 
 export interface Payment {
