@@ -103,4 +103,5 @@ export declare const paths: {
     loginmailclickurl: string;
     updatebusinessname: string;
     getbusinessname: string;
+    getorderstatus: string;
 };

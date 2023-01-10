@@ -28,5 +28,6 @@ export const paths = {
     authenticatecb: "/#/authenticate",
     loginmailclickurl: "/auth/magiclogin/callback",
     updatebusinessname: "/business/update",
-    getbusinessname: "/business/getname"
+    getbusinessname: "/business/getname",
+    getorderstatus: "/business/getorderstatus"
 };
