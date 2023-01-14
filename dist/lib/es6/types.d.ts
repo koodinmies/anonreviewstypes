@@ -79,6 +79,7 @@ export declare const statuses: {
 };
 export interface logindata {
     destination: string;
+    token: string;
 }
 export interface authenticate extends base {
 }

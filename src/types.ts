@@ -94,7 +94,8 @@ export const statuses =  {
 }
 
 export interface logindata{
-    destination: string
+    destination: string,
+    token: string
 }
 
 export interface authenticate extends base {
