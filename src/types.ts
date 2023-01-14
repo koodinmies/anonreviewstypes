@@ -62,7 +62,8 @@ export interface environmentoptions {
         cert: Buffer | "",
         passphrase: string,
     }
-    env_type: "LOCAL" | "PROD";
+    env_type: "LOCAL" | "PROD",
+    google_app_creds_path: string
 
 }
 

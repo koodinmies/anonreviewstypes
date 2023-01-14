@@ -54,6 +54,7 @@ export interface environmentoptions {
         passphrase: string;
     };
     env_type: "LOCAL" | "PROD";
+    google_app_creds_path: string;
 }
 export interface frontenvoptions {
     api_url: string;
